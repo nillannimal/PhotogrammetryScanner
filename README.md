@@ -20,6 +20,7 @@ This project provides a low-cost 3D scanner using a smartphone and photogrammetr
 
 1. Clone this repository to your local machine.
 2. Move the `photogrammetry_scanner.py` and `process_images.py` files to the Meshroom installation folder.
+3. Upload the run_scanner.ino file to the scanner Arduino Mega
 
 ## Usage
 
@@ -34,5 +35,7 @@ python photogrammetry_scanner.py
 - **COM Port**: The COM port of your Arduino. (e.g., COM3)
 - **Object Name**: The name of the object you want to scan.
 - **Phone Path**: The path to your phone's internal storage where the photos will be stored. (e.g., "This PC\Apple iPhone\Internal Storage\DCIM")
+
+![GUI Example](ScannerGUI.png)
 
 4. Click the "Run" button to start the scanning process. The scanner will automatically take pictures of the object and process them using Meshroom.
