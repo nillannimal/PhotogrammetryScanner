@@ -36,6 +36,8 @@ python photogrammetry_scanner.py
 - **Object Name**: The name of the object you want to scan.
 - **Phone Path**: The path to your phone's internal storage where the photos will be stored. (e.g., "This PC\Apple iPhone\Internal Storage\DCIM")
 
-![GUI Example](ScannerGUI.png)
+<p align="center">
+  <img src="ScannerGUI.py" alt="GUI Example">
+</p>
 
 4. Click the "Run" button to start the scanning process. The scanner will automatically take pictures of the object and process them using Meshroom.
