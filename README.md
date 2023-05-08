@@ -25,10 +25,9 @@ This project provides a low-cost 3D scanner using a smartphone and photogrammetr
 
 1. Connect your smartphone and Arduino to your computer.
 2. Run the GUI using the following command:
-
-'''
+```
 python photogrammetry_scanner.py
-'''
+```
 
 3. Enter the following information in the GUI:
 
